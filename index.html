@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shiyam Code Lab 🔥</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Monaco Editor CDN -->
+  <script src="https://unpkg.com/monaco-editor@latest/min/vs/loader.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>⚡ Shiyam Code Lab</h1>
+
+  <select id="language">
+    <option value="javascript">JavaScript</option>
+    <option value="python">Python</option>
+    <option value="cpp">C++</option>
+    <option value="java">Java</option>
+    <option value="c">C</option>
+    <option value="csharp">C#</option>
+    <option value="go">Go</option>
+    <option value="rust">Rust</option>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+  </select>
+</header>
+
+<div class="main">
+  <div id="editor"></div>
+
+  <div class="right">
+    <div id="output">🚀 Output will appear here...</div>
+
+    <div class="buttons">
+      <button onclick="runCode()">▶ Run</button>
+      <button onclick="clearCode()">🧹 Clear</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
